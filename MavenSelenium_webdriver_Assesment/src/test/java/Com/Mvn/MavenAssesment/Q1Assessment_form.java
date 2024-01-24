@@ -84,13 +84,13 @@ public class Q1Assessment_form {
 		 Thread.sleep(1000);
 
 
-		 driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\tejas\\Downloads\\Image.jpg"); //for uploading file
+		 driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\kalpesh\\Downloads\\Image.jpg"); //for uploading file
 		 //A.moveToElement(WE5).click().build().perform();
 		 Thread.sleep(1000);
 		 driver.findElement(By.id("currentAddress")).sendKeys("Surat, Gujrat");
 		 Thread.sleep(1000);
 		 File F1= ((RemoteWebDriver) driver).getScreenshotAs(OutputType.FILE);
-		 Files.copy(F1, new File("C:\\Users\\tejas\\Screenshot\\DemoQAForm.png"));
+		 Files.copy(F1, new File("C:\\Users\\kalpesh\\Screenshot\\DemoQAForm.png"));
 
 		 driver.quit();
 		 	
